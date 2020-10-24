@@ -1,0 +1,116 @@
+html{
+   background-image: url(https://scontent.ftxl2-1.fna.fbcdn.net/v/t1.0-9/13925103_10208599168609430_5372037124662148414_n.jpg?_nc_cat=111&_nc_sid=8bfeb9&_nc_ohc=2DBJzBav8OsAX9i-ee-&_nc_ht=scontent.ftxl2-1.fna&oh=2dfbf0d97ae1366733ffddb6e0c79081&oe=5FB411E9);
+    height: 100vw;
+    background-repeat:   no-repeat;
+    background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(30,139,195,0.8);
+  background-blend-mode: multiply;
+  background-size: 100vw;
+  max-width: 100vw;
+  min-width: 50vw;
+}
+header{
+  background-color: #00688B;
+  position: fixed;
+  top: 0vw;
+  margin-left: 0vw;
+  z-index: 9999;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+@media(max-width: 600px;){
+  header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+  }
+}
+h1{
+  font-family: Robot Condensed;
+  font-size: 25px;
+  color: white;
+  margin-left: 15px;
+}
+#logo-image{
+  position: relative;
+  right: 80px;
+  top: 2px;
+max-width: 101px;;
+ height: auto;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media(max-width: 600px;){
+  ul{
+       width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+}
+li{
+  list-style: none;
+}
+a{
+  font-size: 20px;
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  margin: 10px;
+ }
+  a:hover{
+    color: yellow;
+}
+button:hover{
+  color: yellow;
+}
+.centered-objects{
+  font-family: Robot Condensed;
+  font-size: 15px;
+  color: white;
+  font-weight: 200;
+  position: relative;
+  top: 9vw;
+  margin-left: 35vw;
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#email{
+  position: relative;
+  max-width: 15vw;
+  margin-left: 8vw;
+}
+button{
+  max-width: 8vw;
+  margin-left: 12vw;
+  margin-top: 1vw;
+  background-color: #00688B;
+  color: white;
+}
+main{
+  color: white;
+}
+.text-container{
+  max-width: 40vw;
+  height: auto;
+  text-align: center;
+}
