@@ -100,7 +100,6 @@ button:hover{
 }
 .centered-objects{
   font-family: Robot Condensed;
-  font-size: 15px;
   color: white;
   font-weight: 200;
    display: flex;
@@ -134,4 +133,12 @@ main{
   max-width: 40vw;
   height: auto;
   text-align: center;
+}
+.secondary-title{
+  font-size: 22px;
+}
+@media(max-width: 600px){
+  .secondary-title{
+    font-size: 15px;
+  }
 }
