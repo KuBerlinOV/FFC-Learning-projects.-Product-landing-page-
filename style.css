@@ -142,3 +142,21 @@ main{
     font-size: 15px;
   }
 }
+.price-boxes-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 60px;
+}
+.price-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1em;
+  border-color: black;
+  background-color:  #00688B;
+  border: solid;
+  padding: 20px;
+  margin: 10px;
+}
